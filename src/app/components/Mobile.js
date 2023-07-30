@@ -7,7 +7,10 @@ const Mobile = () => {
 				This is a Magical Website and will only work when you use a computer and
 				say
 			</div>
-			<div className="text-4xl text-center py-8">"abracadabra✨"</div>
+			<div className="text-4xl text-center py-8">
+				{" "}
+				&quot;abracadabra✨&quot;
+			</div>
 		</div>
 	);
 };
