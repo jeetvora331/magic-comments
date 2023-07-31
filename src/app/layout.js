@@ -7,7 +7,7 @@ export const metadata = {
 	title: "Magic Comments",
 	description: "Add comments to your code, magically !",
 	icons: {
-		icon: "https://cdn.icon-icons.com/icons2/564/PNG/512/Fantasy_icon-icons.com_54181.png",
+		icon: "https://img.icons8.com/?size=512&id=xKAfx2KN4Ea6&format=png",
 	},
 };
 
