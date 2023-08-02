@@ -20,23 +20,12 @@ const Form = () => {
 		}
 		setIsLoading(true);
 		setIsButtonActive(false);
-		// Thorttling below
-
-		if (handleSubmit.throttled) {
-			console.log("blocked via throttle");
-			return;
-		}
-
-		handleSubmit.throttled = true;
-		setTimeout(() => {
-			handleSubmit.throttled = false;
-		}, 10000);
 
 		const prompt =
 			input +
 			"on the top of the file in simple 1 line describe what the entire code do. add few comments and very few suitable emojis to the code"; // Replace with your desired prompt
 
-		console.log("clicked");
+		// console.log("clicked");
 		const requestOptions = {
 			method: "POST",
 			headers: {
